@@ -4,7 +4,7 @@ from tensorflow.keras.models import load_model
 from PIL import Image, ImageOps
 
 # Load the trained model
-model = load_model(r'C:\Users\karti\OneDrive\Desktop\mini project\handwritten_digit_rec.h5')
+model = load_model(r'handwritten_digit_rec.h5')
 
 # Pre-process
 def preprocess_image(img):
